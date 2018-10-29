@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--Scroll view shoud have only one main view-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hawii"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Hawaii"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget nisl quis elit finibus rhoncus. Ut laoreet sollicitudin elit sit amet suscipit. Duis bibendum augue non fringilla consequat. Phasellus finibus bibendum enim. Sed iaculis semper eros nec venenatis. Integer dapibus volutpat blandit. Duis tincidunt tincidunt tellus, ultrices vulputate nisl ornare et. Suspendisse rutrum ligula sollicitudin, tristique ligula sed, viverra elit. Etiam et blandit urna, vitae dignissim tellus. Pellentesque congue tristique nunc, sit amet rutrum risus sodales eget. Curabitur tincidunt cursus erat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget nisl quis elit finibus rhoncus. Ut laoreet sollicitudin elit sit amet suscipit. Duis bibendum augue non fringilla consequat. Phasellus finibus bibendum enim. Sed iaculis semper eros nec venenatis. Integer dapibus volutpat blandit. Duis tincidunt tincidunt tellus, ultrices vulputate nisl ornare et. Suspendisse rutrum ligula sollicitudin, tristique ligula sed, viverra elit. Etiam et blandit urna, vitae dignissim tellus. Pellentesque congue tristique nunc, sit amet rutrum risus sodales eget. Curabitur tincidunt cursus erat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget nisl quis elit finibus rhoncus. Ut laoreet sollicitudin elit sit amet suscipit. Duis bibendum augue non fringilla consequat. Phasellus finibus bibendum enim. Sed iaculis semper eros nec venenatis. Integer dapibus volutpat blandit. Duis tincidunt tincidunt tellus, ultrices vulputate nisl ornare et. Suspendisse rutrum ligula sollicitudin, tristique ligula sed, viverra elit. Etiam et blandit urna, vitae dignissim tellus. Pellentesque congue tristique nunc, sit amet rutrum risus sodales eget. Curabitur tincidunt cursus erat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget nisl quis elit finibus rhoncus. Ut laoreet sollicitudin elit sit amet suscipit. Duis bibendum augue non fringilla consequat. Phasellus finibus bibendum enim. Sed iaculis semper eros nec venenatis. Integer dapibus volutpat blandit. Duis tincidunt tincidunt tellus, ultrices vulputate nisl ornare et. Suspendisse rutrum ligula sollicitudin, tristique ligula sed, viverra elit. Etiam et blandit urna, vitae dignissim tellus. Pellentesque congue tristique nunc, sit amet rutrum risus sodales eget. Curabitur tincidunt cursus erat." />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
